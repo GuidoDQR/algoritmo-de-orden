@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.grid-container{
+    display: flex;
+    width: max-content;
+    height: 600px;
+    align-items: flex-end;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+    height: 50px;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+button{
+    margin-top: 2px;
+}
